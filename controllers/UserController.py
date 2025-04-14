@@ -383,3 +383,5 @@ async def resetPassword(data: ResetPasswordReq):
     except jwt.InvalidTokenError:
         raise HTTPException(status_code=500, detail="JWT is invalid")
 
+
+
